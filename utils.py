@@ -2,6 +2,8 @@ from torch import nn
 import torch, os, logging, csv, copy, math
 from transformers.modeling_bert import BertPreTrainedModel, BertModel
 from transformers.modeling_electra import ElectraPreTrainedModel, ElectraModel
+# from transformers.models.bert.modeling_bert import BertPreTrainedModel, BertModel
+# from transformers.models.electra.modeling_electra import ElectraPreTrainedModel, ElectraModel
 from torch.utils.data import TensorDataset
 from torch.nn import CrossEntropyLoss
 
